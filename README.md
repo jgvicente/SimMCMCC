@@ -39,14 +39,14 @@ For a quick start, check out the `example` folder. Below are the basic steps to 
   - Load the data:
 
   ```C
-  FILE *data =fopen("/pathtodata/data.txt", "r");
+  FILE *data = fopen("/pathtodata/data.txt", "r");
   FILE *cov = fopen("/pathtodata/data_cov_matrix.txt", "r");
   ```
 
   - If the log-prior or the proposal density require covariance matrices, load them as well
 
   ```C
-  FILE *cov_prior =fopen("/pathtodata/cov_prior.txt", "r");
+  FILE *cov_prior = fopen("/pathtodata/cov_prior.txt", "r");
   FILE *cov_proposal = fopen("/pathtodata/cov_proposal.txt", "r");
   ```
 

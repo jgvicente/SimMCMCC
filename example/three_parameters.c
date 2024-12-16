@@ -43,7 +43,7 @@ int main()
 	n_param = 3;
 	size = 200000;
 	/* Getting the data*/
-	FILE *data =fopen("./data/data3p.txt", "r");
+	FILE *data = fopen("./data/data3p.txt", "r");
 	FILE *cov = fopen("./data/data_cov_matrix3p.txt", "r");
 
 	/* Getting the Fisher matrix and the covariance matrix for the user-defined functions*/
